@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //LEVEL 3-TUGAS7 I
+        var a = ''
+        for (var i = 0; i <= 5; i++) {
+            for(var s = 0; s < i; s++){
+                a += '*'
+            }
+            a += '\n'
+        }  
+        console.log(a)
+        
+        
+        //LEVEL 3-TUGAS7 II
+
+        var s = '';
+        var panjang = 5;
+        var lebar = 4;  
+
+        for (var i = 1; i <= lebar; i++){
+            if ( i == 1 || i == lebar){
+                for(var j = 1; j <= panjang; j++){
+                    s += '*'; 
+                } 
+            }
+            else {
+                for (var k = 1; k <= panjang; k++){
+                    if (k == 1 || k == panjang ) {
+                        s += '*';
+                    }else {
+                        s += ' ';
+                        
+                    }
+                }
+            }
+            s += '\n';
+        }  
+        console.log(s)
+        // END II
+    </script>
+</body>
+</html>

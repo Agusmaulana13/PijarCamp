@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // LEVEL 3-TUGAS6 I
+        // Perulangan merupakan perulangan yang termasuk dalam couted loop,karena sudah jelas berapa kali ia akan mengulang. memiliki 3 statemant inisialisai dulu nilai, lalu kondisi perulangan mau berpakli,trus kodisi nya mau ditambah atau di kurang / effects 
+         
+        // FOR
+        for(let a = 1; a <= 10; a++){
+            console.log('data ke -' , a)
+        }
+        let b = 1
+        
+        // WHILE
+        while (b <= 15){
+            console.log('data ke -' , b)
+            b++
+        } 
+
+        // DO WHILE
+        let c = 1
+        do {
+            console.log('data ke - ', c)
+            c++
+        }while(c <= 5 )
+
+        // FOR OF bisa melooping string
+        const hobi = 'agus';
+        for (const h of hobi)
+        {
+            console.log(h)
+        }
+        // FOR IN untuk looping properti pada objek
+        const saya = {
+            nama: 'agus',
+            umur: 22,
+            email: '4gusmaulana1311@gmail.com'
+        }
+
+        for (s in saya ){
+            console.log(s)
+        }
+
+       //LEVEL 3-TUGAS 6 II
+       
+       for(let x = 0; x <= 3; x++){
+           console.log('data ke -' , x)
+        }
+        let x = 1
+        
+        // END II maaf untuk soal ini saya tidak begitu mengerti mksdnya🙏
+        
+        
+        //LEVEL 3-TUGAS 6 III
+        const nilai = prompt("masukan nilai")
+        if(nilai % 2 ){
+            alert("ganjil")
+        }else if (nilai == 0){
+            alert("masukan nilai")
+        }else if (nilai == null){
+            alert("masukan nilai")
+        }else  {
+            alert("genap")
+        }
+        
+        // END III
+
+    </script>
+</body>
+</html>

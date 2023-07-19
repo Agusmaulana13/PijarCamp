@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEVEL 1 TUGAS 1,2 DAN 3</title>
+</head>
+<body>
+     <h1>level-1 tugas-1,2,3</h1>
+    <script>
+
+        // LEVEL 1 TUGAS 1
+
+        const name = 'Muhamad agus maulana';
+        console.log(name)
+        const umur = 22;
+        console.log(umur)
+        const alamat = 'Cigombong, Bogor';
+        console.log(alamat)
+        const hobi = 'berenang dan hiking';
+        console.log(hobi)
+        const lulusan = 'SMK FARMAKO MEDIKA PLUS';
+        console.log(lulusan)
+        const programing = 'karna programing adalah karir yang tepat untuk saat ini dan kedepanya juga menurut saya programing itu keren ';
+        console.log(programing)
+        const skill = 'membuat website dengan grid system,manipulasi data, dan menyimpan data di database';
+        console.log(skill)
+        const kesulitan = 'Pernah kesulitan di segi waktu juga butuh mentor dan teman programing agar lebih terarah ';
+        console.log(kesulitan)
+        const alasanBc = 'yang saya rasakan belajar programing secara otodidak itu sulit ,butuh mentor atau teman sperjuangan dalam mencapai skill programing tersebut agar lebi terarah';
+        console.log(alasanBc)
+        const harus = 'Saya memiliki niat yang sangat sungguh-sungguh dan juga saya memiliki pengetahuan tentang prograimng  Rest API, Cloud Computing, framework  yang belum saya tekuni. karna untuk belajar coding secara sendiri itu sangat sulit saya rasakan jadi saya sangat menginginkan dan membutuhkan bootcamp pijar ini';
+        console.log(harus)
+
+        // END TUGAS 1
+
+        // LEVEL 2 TUGAS 2        
+
+        const nama = 'Nama saya adalah : Muhamad agus maulana,';
+        const asalSekolah = 'Asal sekolah : SMK FARMAKO MEDIKA PLUS,'
+        const jurusan = 'Jurusan saya adalah : Rekaysa Perangkat Lunak(RPL)'
+        const alasanSukaProgrammin = ' Alasan saya tertarik dengan programming adalah untuk berkarir dibidang yang saya minati '
+        console.log(nama + '' ,  asalSekolah, '' + jurusan, '' + alasanSukaProgrammin)
+
+        
+        const perbedaanVariable = 'semua fungsinya sama untuk mendeklarasikan variable dan menapung value akan tetapi ada sedikit yang membedakanya untuk let itu nilainya bisa di rubah/ditimpa/digantikan dengan lingkup yang non-global/scoop area, kalo const nilai nya tetap dan tak tergantikan untuk var bisa di ubah dimanapaun dan bersifat global'
+        console.log(perbedaanVariable)
+        
+        // END TUGAS 2 LEVEL 2
+        
+        
+        // LEVEL 3 TUGAS 3
+
+        // COMENT JAVASCRIPT  SOAL 1
+        
+        // ini coment satu baris
+        /* tipe data data di javascript adalah :
+        1. Numerik, Numerik adalah data berupa bilangan yang dapat dikenai operasi matematika, penjumlahan, pengurangan, perkalian dan pembagian numerik terdiri dari bilangan bulat (interger) dan pecahan (float) atau desimal(bilangan di beakang koma)
+        2. String,  string adalah semua data berupa huruf,tanda, baca, angka rangkain huruf dan angka, penulisanya selalu diapit oleh tanda kutip sua atau satu
+        3. Boolean, Boolean adalah data yang terdiri dari dua nilai true dan falseumumnya digunakan dalam proses evaluasi suatu kondisi, proses pemilihan atau pengulangan
+        4. Object, Object adalah tipe data yang digunakan untuk mendefinisikan objeck dalam jvascript
+        5.RegExp, RegExp adalah tipe data mendefinisikan pola atau regular expression 
+        (regex)
+        6. Null dan Undefined adalah tipe data khusus, null digunakan untuk mendefinisikan data kosong(null), undefined untuk data yang belum di defisinikan, keduanya biasa di gunakann dengan manipulasi object. ditulisakn dengan huruf kecil  atau case sensitive  
+        7.Date, Date adalah data khusus untuk menyatakan waktu tanggal dan jam
+        8. NaN, NaN(not a number) adalah suatu konstanta seperti null untuk menyatakan data yang bukan bilangan
+        */
+
+       //END SOAL 1
+
+       //  TIPE DATA OBJECT SOAL 2
+
+       // Deklarasikan dan assign semua tipe data di JavaScrip
+
+    const user = {     
+                myName: "Agus Maulana",  
+                umur: 22,
+                jenisKelamin: 'laki-laki'        
+        };
+        const peliharaaan = {    
+                pets: "joy",  
+                jenisPeliharaan: 'kucing',
+                jenisKelamin: 'laki-laki'
+        };
+        let postur = {
+            tinggiBadan: 172,
+            beratBadan: 60,
+            ukuranSepatu: 42
+
+        };
+        console.log(user)
+        console.log(peliharaaan)
+        console.log(postur)
+
+
+        // TIPE DATA STRING 
+            const  pets = "joy"  
+            let jenisPeliharaan = 'kucing' 
+            const jenisKelamin = 'laki-laki'
+            console.log(pets,jenisKelamin,jenisPeliharaan)
+
+        // TIPE DATA INTERGER
+           let tinggiBadan = 172
+           let beratBadan = 60
+           const ukuranSepatu = 42
+           console.log(ukuranSepatu,beratBadan,tinggiBadan)
+
+        // END SOAL 2
+
+
+        // SOAL 3 
+
+        // Penjumlahan, pengurangan, pembagian
+         let angkaPertama = 2020
+         let angkaKedua =  8
+
+        // // penjumlahan
+        let hasilPenjumlahan = angkaPertama + angkaKedua
+        console.log(hasilPenjumlahan)
+
+        // // pengurangan
+        let hasilPengurangan = angkaPertama - angkaKedua
+        console.log(hasilPengurangan)
+
+        // // perkalian
+        let hasilPerkalian = angkaPertama * angkaKedua
+        console.log(hasilPerkalian)
+
+        // // pembagian
+         let hasilPembagian = angkaPertama / angkaKedua
+         console.log(hasilPembagian)
+
+        // END SOAL 3
+        // BISMILLAH
+    </script>
+    <!-- bismillah
+ -->    
+</body>
+
+</html>

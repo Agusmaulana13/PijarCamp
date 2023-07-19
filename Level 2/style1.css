@@ -1,0 +1,50 @@
+
+body {
+    background-color: #ddd9d9;
+    font-family: Arial, Helvetica, sans-serif;
+    /* mengaur warna backround pada body dan mengataur jenis font yang ada didalam body  */
+}
+
+.container {
+    background-color: white;
+    height: 900px;
+    width: 800px;
+    display: inline-block;
+    justify-content: center;
+    margin-left: 250px;
+    /* style disini untuk mengatur ukuran,background,penempatan objek kontainer */
+}
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    /* mengatur tata letak yang  di dalamnya ada dua objek, agar 2 objek tsbt tidak berdempetan */
+}
+.profesi {
+    width: 30%; 
+    border-bottom: 1px solid blue;
+    margin: 20px;
+    padding: 30px;
+    /* mengatur ukuran dan jarak di sebuah objek juga memberikan garis bawah berwna biru */
+    
+}
+.pendapat {
+    width: 50%;
+    border-top: 1px solid rgb(49, 179, 23);
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+   /* mengatur ukuran dan jarak di sebuah objek juga memberikan garis atas berwna hijau, mengubah jenis font dan penempatan text di tengah */
+    
+}
+.alamat {
+    background-color: yellow;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+    /* mengatur ukuran dan jarak di sebuah objek juga penempatan text di tengah dan background berwana kuning*/
+    
+}

@@ -1,0 +1,65 @@
+/* maaf jelek kendala waktuuuuu */
+    
+    /* PENJELASAN LEVEL 2 SOAL 3 - 7 */
+    /* 3. Apa yang dimaksud CSS Specificity CSS Specificity menentukan seberapa spesifik kah sebuah aturan pada CSS. Jika ada 2 atau lebih aturan pada sebuah elemen yang sama, maka aturan paling spesifiklah yang akan dipakai oleh browser. */
+    /* 4. Apa yang dimaksud dengan Responsive Website Responsive Website adalah teknologi teranyar W3C (World Wide Web Consortium) yang menggunakan Media Queries terbaru dari CSS3 (Cascading Style Sheet versi ke 3) yang menjadikan website menjadi peka terhadap lebar browser pengunjung. */
+    /* 5.  Apa itu media query? Media query adalah fitur yang tersedia di CSS3 untuk memberikan style khusus dengan suatu kondisi tertentu.  Kondisi tertentu tersebut misalnya ukuran layar. */
+    /* 6. Apa yang dimaksud CSS flexbox dan grid? Flexbox dan Grids sama-sama berfungsi untuk mengatur tampilan sebuah halaman web menjadi lebih terstruktur dan rapi. Perbedaannya hanya terletak pada arah pembagian dimensinya saja. Flexbox hanya dapat mengatur arah pembagian dimensi tampilan hanya secara horizontal saja atau secara vertikal saja. */
+    /* 7. Bootstrap adalah framework web development berbasis HTML, CSS, dan JavaScript yang dirancang untuk mempercepat proses pengembangan web responsive dan mobile-first (memprioritaskan perangkat seluler). */
+
+body {
+    background-color: #888;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container  {
+    background-color: #071952;
+    width: 80%;
+    margin: auto;
+}
+.card {
+    text-align: center;
+    background-color: #0B666A;
+    width: 80%;
+    margin: auto;
+    color: white;
+    padding: 10px;
+}
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.col {
+    width: 40%;
+    background-color: #35A29F;
+    color: white;
+    
+}
+.coll {
+    width: 40%;
+    background-color: #97FEED;
+    
+}
+.img {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.img a {
+    color: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    }
+    .img {
+        margin: auto
+    }
+    }
+
+    
